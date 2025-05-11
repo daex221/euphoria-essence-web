@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -18,6 +19,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'cormorant': ['Cormorant Garamond', 'serif'],
+				'montserrat': ['Montserrat', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,7 +66,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom colors for Vee's Euphoria Essence
+				'vee-pink': '#FFDEE2',
+				'vee-lavender': '#E5DEFF',
+				'vee-peach': '#FDE1D3',
+				'vee-soft-gray': '#F1F0FB',
+				'vee-text': '#4A4453',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,12 +95,41 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'fade-in-left': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateX(-20px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateX(0)'
+					}
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.7s ease-out forwards',
+				'fade-in-delay-1': 'fade-in 0.7s ease-out 0.3s forwards',
+				'fade-in-delay-2': 'fade-in 0.7s ease-out 0.6s forwards',
+				'fade-in-delay-3': 'fade-in 0.7s ease-out 0.9s forwards',
+				'fade-in-left': 'fade-in-left 0.7s ease-out forwards',
+			},
+			backgroundImage: {
+				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+				'vee-gradient': 'linear-gradient(to right, #ee9ca7, #ffdde1)',
+			},
 		}
 	},
 	plugins: [require("tailwindcss-animate")],

@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { HomeIcon, Circle } from "lucide-react";
@@ -77,7 +76,7 @@ const Services = () => {
           <div className="service-card backdrop-blur">
             <div className="flex items-center mb-4">
               <div className="w-10 h-10 bg-vee-lavender/30 rounded-full flex items-center justify-center mr-3">
-                <Home className="text-purple-600" size={20} />
+                <HomeIcon className="text-purple-600" size={20} />
               </div>
               <h3 className="text-xl font-bold font-cormorant">Outcall Services</h3>
             </div>

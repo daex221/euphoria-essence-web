@@ -6,12 +6,12 @@ import { StarIcon } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      image: "/lovable-uploads/452ee5e3-d440-4c5a-8944-5117d1e962d9.png",
+      image: "/lovable-uploads/143f1dea-f7c4-441c-9c85-80dc153a5815.png",
       quote: "Vanessa's massage therapy was exactly what I needed. I felt completely renewed and relaxed. The experience was truly euphoric!",
       author: "Sarah L."
     },
     {
-      image: "/lovable-uploads/2087fec9-1e3a-4612-88ff-f84ec83cee9b.png",
+      image: "/lovable-uploads/d5787552-0879-4b66-ba6c-ec4fb11b2707.png",
       quote: "I've never felt so pampered and cared for. The beauty therapy session was exceptional, and I love my new look!",
       author: "Michelle K."
     },

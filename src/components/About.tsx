@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Flower, Lotus, Heart } from "lucide-react";
+import { Flower, Heart, Leaf } from "lucide-react";
 
 const About = () => {
   return (
@@ -43,7 +43,7 @@ const About = () => {
               
               <div className="flex flex-col items-center text-center p-4">
                 <div className="w-12 h-12 bg-vee-peach/30 rounded-full flex items-center justify-center mb-3">
-                  <Lotus className="text-orange-500" size={22} />
+                  <Leaf className="text-orange-500" size={22} />
                 </div>
                 <h3 className="font-medium mb-1">Healing</h3>
                 <p className="text-sm opacity-75">Restorative techniques</p>

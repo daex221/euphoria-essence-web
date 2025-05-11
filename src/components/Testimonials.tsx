@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Card } from "@/components/ui/card";
-import { Lotus } from "lucide-react";
+import { FlowerIcon } from "lucide-react";
 
 const Testimonials = () => {
   return (
@@ -21,7 +21,7 @@ const Testimonials = () => {
           {[1, 2, 3].map((item) => (
             <Card key={item} className="overflow-hidden border-none shadow-md">
               <div className="h-48 bg-gradient-to-br from-vee-pink/40 via-vee-lavender/30 to-vee-peach/20 flex items-center justify-center">
-                <Lotus className="w-12 h-12 text-white/50" />
+                <FlowerIcon className="w-12 h-12 text-white/50" />
               </div>
               <div className="p-6">
                 <blockquote className="italic text-vee-text/80 text-sm">

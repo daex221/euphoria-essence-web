@@ -1,6 +1,7 @@
 
 import React from "react";
 import { Flower, Heart, Leaf } from "lucide-react";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const About = () => {
   return (
@@ -53,6 +54,11 @@ const About = () => {
           
           <div className="w-full lg:w-1/2 order-1 lg:order-2">
             <div className="relative h-96 md:h-[550px] rounded-2xl overflow-hidden shadow-xl">
+              <img 
+                src="/founder-image.jpg" 
+                alt="Vanessa Sami - Founder of Vee's Euphoria Essence" 
+                className="w-full h-full object-cover" 
+              />
               <div className="absolute inset-0 bg-gradient-to-br from-vee-pink/50 via-vee-lavender/30 to-vee-peach/40 z-10 mix-blend-overlay"></div>
               
               <div className="absolute inset-0 p-6 flex flex-col justify-end z-20">

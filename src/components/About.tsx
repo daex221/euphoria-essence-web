@@ -55,7 +55,7 @@ const About = () => {
           <div className="w-full lg:w-1/2 order-1 lg:order-2">
             <div className="relative h-96 md:h-[550px] rounded-2xl overflow-hidden shadow-xl">
               <img 
-                src="/founder-image.jpg" 
+                src="/lovable-uploads/ccba16da-58e8-4185-ae70-7f25874d6b26.png" 
                 alt="Vanessa Sami - Founder of Vee's Euphoria Essence" 
                 className="w-full h-full object-cover" 
               />

@@ -37,15 +37,6 @@ const Hero = () => {
             <a href="#services">View Services</a>
           </Button>
         </div>
-        
-        <div className="absolute bottom-8 left-0 right-0 flex justify-center opacity-0 animate-fade-in-delay-3">
-          <div className="flex flex-col items-center">
-            <p className="text-sm mb-2">Scroll to discover</p>
-            <div className="w-6 h-10 rounded-full border-2 border-vee-text flex justify-center pt-2">
-              <div className="w-1.5 h-1.5 bg-vee-text rounded-full animate-bounce"></div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

@@ -25,7 +25,7 @@ const CustomAbout = () => {
           <div className="w-full lg:w-1/2">
             <div className="rounded-2xl overflow-hidden shadow-xl">
               <img 
-                src="/lovable-uploads/452ee5e3-d440-4c5a-8944-5117d1e962d9.png" 
+                src="/lovable-uploads/f70ea414-0ba3-4484-aa8c-c97d0d17ab60.png" 
                 alt="Vanessa Blaze" 
                 className="w-full h-auto"
               />

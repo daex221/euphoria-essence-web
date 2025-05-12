@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from "react";
-import { Instagram, Phone } from "lucide-react";
+import { Instagram, Phone, Skin } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -28,9 +29,9 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
         <div className="flex items-center justify-between w-full md:w-auto">
-          <a href="#" className="text-vee-text">
+          <Link to="/" className="text-vee-text">
             <h1 className="font-cormorant font-semibold text-xl md:text-2xl">VEE'S EUPHORIA ESSENCE</h1>
-          </a>
+          </Link>
           <div className="flex items-center space-x-4 md:hidden">
             <a 
               href="tel:+447497396867" 
@@ -44,12 +45,16 @@ const Navbar = () => {
         
         <div className="hidden md:flex items-center mt-4 md:mt-0">
           <div className="flex items-center space-x-6">
-            <a href="#about" className="text-sm text-vee-text hover:text-pink-500 transition-colors">
+            <Link to="/#about" className="text-sm text-vee-text hover:text-pink-500 transition-colors">
               About
-            </a>
-            <a href="#services" className="text-sm text-vee-text hover:text-pink-500 transition-colors">
+            </Link>
+            <Link to="/#services" className="text-sm text-vee-text hover:text-pink-500 transition-colors">
               Services
-            </a>
+            </Link>
+            <Link to="/skin-benefits" className="text-sm text-vee-text hover:text-pink-500 transition-colors flex items-center">
+              <Skin size={16} className="mr-1" />
+              <span>Wellness</span>
+            </Link>
             <a 
               href="https://www.instagram.com/veeseuphoriaessence" 
               target="_blank" 
@@ -81,12 +86,16 @@ const Navbar = () => {
       {/* Mobile Menu */}
       <div className="md:hidden flex flex-col items-center mt-2">
         <div className="flex justify-center space-x-6 pb-2">
-          <a href="#about" className="text-sm text-vee-text hover:text-pink-500 transition-colors">
+          <Link to="/#about" className="text-sm text-vee-text hover:text-pink-500 transition-colors">
             About
-          </a>
-          <a href="#services" className="text-sm text-vee-text hover:text-pink-500 transition-colors">
+          </Link>
+          <Link to="/#services" className="text-sm text-vee-text hover:text-pink-500 transition-colors">
             Services
-          </a>
+          </Link>
+          <Link to="/skin-benefits" className="text-sm text-vee-text hover:text-pink-500 transition-colors flex items-center">
+            <Skin size={16} className="mr-1" />
+            <span>Wellness</span>
+          </Link>
           <a 
             href="https://www.instagram.com/veeseuphoriaessence" 
             target="_blank" 

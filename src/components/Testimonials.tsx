@@ -16,8 +16,9 @@ const Testimonials = () => {
       author: "Michelle K."
     },
     {
-      quote: "As someone who suffers from chronic back pain, Vee's therapeutic approach has been life-changing. I leave each session feeling balanced and pain-free.",
-      author: "James T."
+      image: "/lovable-uploads/9921b9e7-72b9-4344-b108-62f945d45774.png",
+      quote: "I incorporate a variety of high-quality essential oils into my treatments. Each essential oil is carefully selected for its unique properties, which offer exceptional benefits for your skin.",
+      author: "Miss Vanessa Blaze"
     }
   ];
 
@@ -30,7 +31,7 @@ const Testimonials = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-3 font-cormorant">Peaceful Moments</h2>
           <p className="max-w-2xl mx-auto opacity-75">
-            Experience the blissful tranquility and rejuvenation that our clients rave about.
+            Experience the blissful tranquility and rejuvenation that our clients rave about. Open Monday-Friday 12:30-9:30, Saturday-Sunday 2pm-8pm.
           </p>
         </div>
         
@@ -60,6 +61,16 @@ const Testimonials = () => {
                   "{testimonial.quote}"
                 </blockquote>
                 <p className="text-right text-sm font-medium text-vee-text">— {testimonial.author}</p>
+                {index === 2 && (
+                  <div className="mt-4 pt-4 border-t border-gray-100">
+                    <p className="text-xs text-gray-600 mb-1">
+                      <strong>Booking Policy:</strong> £20 non-refundable deposit required. 15-minute grace period for appointments.
+                    </p>
+                    <p className="text-xs text-gray-600">
+                      <strong>Massage Frequency:</strong> Weekly for pain relief, monthly for maintenance.
+                    </p>
+                  </div>
+                )}
               </div>
             </Card>
           ))}

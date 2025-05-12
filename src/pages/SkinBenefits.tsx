@@ -2,7 +2,7 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Droplet, Skin, Clock } from "lucide-react";
+import { Droplet, Spa, Clock } from "lucide-react";
 
 const SkinBenefits = () => {
   return (
@@ -32,7 +32,7 @@ const SkinBenefits = () => {
               <div className="w-full lg:w-1/2">
                 <div className="flex items-center mb-6">
                   <div className="w-12 h-12 bg-vee-peach/30 rounded-full flex items-center justify-center mr-4">
-                    <Skin className="text-pink-600" size={24} />
+                    <Spa className="text-pink-600" size={24} />
                   </div>
                   <h2 className="text-3xl font-cormorant font-bold">Skin Benefits</h2>
                 </div>

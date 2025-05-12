@@ -30,12 +30,12 @@ const Footer = () => {
               <li className="flex items-center">
                 <Instagram size={16} className="mr-2 text-vee-text/70" />
                 <a 
-                  href="https://www.instagram.com/veeseuphoriaessence" 
+                  href="https://www.instagram.com/vees_euphoriaessence/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:underline"
                 >
-                  @veeseuphoriaessence
+                  @vees_euphoriaessence
                 </a>
               </li>
             </ul>

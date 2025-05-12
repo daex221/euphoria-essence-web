@@ -56,7 +56,7 @@ const Navbar = () => {
               <span>Wellness</span>
             </Link>
             <a 
-              href="https://www.instagram.com/veeseuphoriaessence" 
+              href="https://www.instagram.com/vees_euphoriaessence/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-vee-text hover:text-pink-500 transition-colors"
@@ -97,7 +97,7 @@ const Navbar = () => {
             <span>Wellness</span>
           </Link>
           <a 
-            href="https://www.instagram.com/veeseuphoriaessence" 
+            href="https://www.instagram.com/vees_euphoriaessence/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-vee-text hover:text-pink-500 transition-colors"

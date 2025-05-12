@@ -14,7 +14,7 @@ const About = () => {
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           <div className="w-full lg:w-1/2 order-2 lg:order-1">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 font-cormorant">
-              Meet <span className="gradient-text">Vanessa Sami</span>
+              Meet <span className="gradient-text">Vanessa Blaze</span>
             </h2>
             
             <p className="text-lg mb-6 opacity-90">
@@ -55,8 +55,8 @@ const About = () => {
           <div className="w-full lg:w-1/2 order-1 lg:order-2">
             <div className="relative h-96 md:h-[550px] rounded-2xl overflow-hidden shadow-xl">
               <img 
-                src="/lovable-uploads/56fe2a5a-c6e6-4745-9b7e-710e6d3c37f9.png" 
-                alt="Vanessa Sami - Founder of Vee's Euphoria Essence" 
+                src="/lovable-uploads/9921b9e7-72b9-4344-b108-62f945d45774.png" 
+                alt="Vanessa Blaze - Founder of Vee's Euphoria Essence" 
                 className="w-full h-full object-cover" 
               />
               <div className="absolute inset-0 bg-gradient-to-br from-vee-pink/50 via-vee-lavender/30 to-vee-peach/40 z-10 mix-blend-overlay"></div>

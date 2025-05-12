@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from "react";
-import { Instagram, Phone, Spa } from "lucide-react";
+import { Instagram, Phone, Leaf } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -52,7 +52,7 @@ const Navbar = () => {
               Services
             </Link>
             <Link to="/skin-benefits" className="text-sm text-vee-text hover:text-pink-500 transition-colors flex items-center">
-              <Spa size={16} className="mr-1" />
+              <Leaf size={16} className="mr-1" />
               <span>Wellness</span>
             </Link>
             <a 
@@ -93,7 +93,7 @@ const Navbar = () => {
             Services
           </Link>
           <Link to="/skin-benefits" className="text-sm text-vee-text hover:text-pink-500 transition-colors flex items-center">
-            <Spa size={16} className="mr-1" />
+            <Leaf size={16} className="mr-1" />
             <span>Wellness</span>
           </Link>
           <a 

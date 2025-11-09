@@ -51,6 +51,9 @@ const Navbar = () => {
             <Link to="/#services" className="text-sm text-vee-text hover:text-pink-500 transition-colors">
               Services
             </Link>
+            <Link to="/blog" className="text-sm text-vee-text hover:text-pink-500 transition-colors">
+              Blog
+            </Link>
             <Link to="/skin-benefits" className="text-sm text-vee-text hover:text-pink-500 transition-colors flex items-center">
               <Leaf size={16} className="mr-1" />
               <span>Wellness</span>
@@ -91,6 +94,9 @@ const Navbar = () => {
           </Link>
           <Link to="/#services" className="text-sm text-vee-text hover:text-pink-500 transition-colors">
             Services
+          </Link>
+          <Link to="/blog" className="text-sm text-vee-text hover:text-pink-500 transition-colors">
+            Blog
           </Link>
           <Link to="/skin-benefits" className="text-sm text-vee-text hover:text-pink-500 transition-colors flex items-center">
             <Leaf size={16} className="mr-1" />

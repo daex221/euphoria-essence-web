@@ -27,7 +27,7 @@ const Services = () => {
               </div>
               <h3 className="text-xl font-bold font-cormorant">Incall Services</h3>
             </div>
-            <p className="text-sm mb-6 text-vee-text/70">At IG11 8AW, UK</p>
+            <p className="text-sm mb-6 text-vee-text/70">At 316e Ilford lane, Ilford ig1 2lt</p>
             
             <div className="space-y-6">
               <div>

@@ -25,7 +25,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start">
                 <MapPin size={16} className="mr-2 mt-1 flex-shrink-0 text-vee-text/70" />
-                <span>Unit 4 Genoa building 18 north street, IG11 8AW, UK</span>
+                <span>316e Ilford lane Ilford ig1 2lt</span>
               </li>
               <li className="flex items-center">
                 <Instagram size={16} className="mr-2 text-vee-text/70" />

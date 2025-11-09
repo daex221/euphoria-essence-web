@@ -11,12 +11,12 @@ const Testimonials = () => {
       author: "Sarah L."
     },
     {
-      image: "/lovable-uploads/d5787552-0879-4b66-ba6c-ec4fb11b2707.png",
+      video: "/lovable-uploads/testimonial-video.mov",
       quote: "I've never felt so pampered and cared for. The beauty therapy session was exceptional, and I love my new look!",
       author: "Michelle K."
     },
     {
-      image: "/lovable-uploads/9921b9e7-72b9-4344-b108-62f945d45774.png",
+      image: "/lovable-uploads/vanessa-black.jpg",
       quote: "I incorporate a variety of high-quality essential oils into my treatments. Each essential oil is carefully selected for its unique properties, which offer exceptional benefits for your skin.",
       author: "Miss Vanessa Blaze"
     }
@@ -38,12 +38,21 @@ const Testimonials = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {testimonials.map((testimonial, index) => (
             <Card key={index} className="overflow-hidden border-none shadow-md hover:shadow-lg transition-all duration-300">
-              {testimonial.image ? (
+              {testimonial.video ? (
                 <div className="h-48 overflow-hidden">
+                  <video 
+                    src={testimonial.video} 
+                    className="w-full h-full object-cover"
+                    controls
+                    playsInline
+                  />
+                </div>
+              ) : testimonial.image ? (
+                <div className={index === 2 ? "h-96 overflow-hidden" : "h-48 overflow-hidden"}>
                   <img 
                     src={testimonial.image} 
                     alt="Vee's Euphoria Essence testimonial" 
-                    className="w-full h-full object-cover"
+                    className={index === 2 ? "w-full h-full object-contain" : "w-full h-full object-cover"}
                   />
                 </div>
               ) : (

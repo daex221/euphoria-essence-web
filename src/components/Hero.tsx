@@ -17,7 +17,7 @@ const Hero = () => {
         </h1>
         
         <p className="max-w-2xl mx-auto text-lg md:text-xl opacity-0 animate-fade-in-delay-1">
-          Professional massage therapy services in IG11 8AW, UK.
+          Massage therapy service in Ilford.
           Experience deep relaxation and healing through the art of touch.
         </p>
         

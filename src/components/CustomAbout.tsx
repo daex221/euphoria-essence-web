@@ -10,15 +10,15 @@ const CustomAbout = () => {
             <h2 className="text-3xl md:text-4xl font-cormorant font-bold mb-6">About Me</h2>
             
             <p className="text-lg mb-6 opacity-90">
-              Hi, I'm Vanessa Blaze, a licensed massage therapist with over 3 years of experience in the wellness industry. I specialize in therapeutic, relaxation, and deep tissue massage techniques.
+              Hi, I'm Vanessa Blaze, a licensed massage therapist with over three years of experience in the wellness industry. I specialize in therapeutic, relaxation, and deep tissue massage techniques.
             </p>
             
             <p className="text-lg mb-6 opacity-90">
-              <strong>My mission is to help clients find relief, relaxation and renewal through the healing power of touch and a euphoric feeling.</strong> Through personalized massage sessions tailored to your specific needs, I strive to create a serene atmosphere where your well-being is the top priority.
+              My mission is to help clients experience relief, renewal, and deep relaxation through the healing power of touch. Each session is thoughtfully customized to your unique needs, creating a calm and restorative environment where your well-being is my top priority.
             </p>
             
             <p className="text-lg opacity-90">
-              I continuously enhance my knowledge through advanced training in various massage modalities to provide you with the best care possible. I believe in the power of massage not just as a luxury, but as an essential component of a healthy lifestyle.
+              I'm committed to continuous growth through advanced training in a variety of massage modalities, ensuring you receive the highest quality of care. I believe massage isn't just a luxury — it's an essential part of maintaining a healthy, balanced lifestyle.
             </p>
           </div>
           

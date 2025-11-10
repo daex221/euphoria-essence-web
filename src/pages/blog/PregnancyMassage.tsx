@@ -117,7 +117,7 @@ const PregnancyMassage = () => {
               <p className="text-center font-medium mb-4">Give yourself and your baby the gift of relaxation and relief. Our experienced therapists are here to support you through every stage of your pregnancy journey.</p>
               <div className="text-center">
                 <Button asChild className="bg-vee-pink hover:bg-pink-300">
-                  <a href="https://wa.me/447497396867">Book Your Prenatal Massage</a>
+                  <a href="https://wa.me/447733219034">Book Your Prenatal Massage</a>
                 </Button>
               </div>
             </div>

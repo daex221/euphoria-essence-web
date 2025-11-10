@@ -26,7 +26,7 @@ const Hero = () => {
             asChild
             className="bg-vee-pink hover:bg-pink-300 text-vee-text rounded-full px-8 py-6"
           >
-            <a href="https://wa.me/447497396867">Book Your Session</a>
+            <a href="https://wa.me/447733219034">Book Your Session</a>
           </Button>
           
           <Button

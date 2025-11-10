@@ -92,7 +92,7 @@ const MassageBackPain = () => {
               <p className="text-center font-medium mb-4">Ready to address your back pain naturally? Book your consultation at Veese Euphoria Essence today.</p>
               <div className="text-center">
                 <Button asChild className="bg-vee-pink hover:bg-pink-300">
-                  <a href="https://wa.me/447497396867">Book Your Session</a>
+                  <a href="https://wa.me/447733219034">Book Your Session</a>
                 </Button>
               </div>
             </div>

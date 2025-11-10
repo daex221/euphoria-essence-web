@@ -80,7 +80,7 @@ const MassageGuideUK = () => {
               <p className="text-center font-medium mb-4">Book your massage therapy session today and experience the Veese Euphoria Essence difference.</p>
               <div className="text-center">
                 <Button asChild className="bg-vee-pink hover:bg-pink-300">
-                  <a href="https://wa.me/447497396867">Book Your Session</a>
+                  <a href="https://wa.me/447733219034">Book Your Session</a>
                 </Button>
               </div>
             </div>

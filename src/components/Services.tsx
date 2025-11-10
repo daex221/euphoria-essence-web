@@ -39,14 +39,14 @@ const Services = () => {
                     <Circle className="w-3 h-3 mr-2 text-vee-pink" fill="currentColor" />
                     <span>30 mins</span>
                   </div>
-                  <span className="font-semibold">£40</span>
+                  <span className="font-semibold">£50</span>
                 </div>
                 <div className="flex flex-col sm:flex-row sm:justify-between mt-2 text-sm">
                   <div className="flex items-center">
                     <Circle className="w-3 h-3 mr-2 text-vee-pink" fill="currentColor" />
                     <span>1 hour</span>
                   </div>
-                  <span className="font-semibold">£70</span>
+                  <span className="font-semibold">£80</span>
                 </div>
               </div>
               
@@ -128,13 +128,13 @@ const Services = () => {
         
         <div className="text-center mt-12">
           <a 
-            href="https://wa.me/447497396867" 
+            href="https://wa.me/447733219034" 
             className="inline-flex items-center px-8 py-3 bg-vee-pink text-vee-text rounded-full hover:bg-pink-300 transition-all shadow-sm hover:shadow"
           >
             Book Your Session
           </a>
           <p className="mt-4 text-sm opacity-75">
-            You can also call directly at <a href="tel:+447497396867" className="underline">+44 7497 396867</a>
+            You can also call directly at <a href="tel:+447733219034" className="underline">+44 7733 219034</a>
           </p>
         </div>
       </div>

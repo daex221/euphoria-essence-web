@@ -34,7 +34,7 @@ const Navbar = () => {
           </Link>
           <div className="flex items-center space-x-4 md:hidden">
             <a 
-              href="tel:+447497396867" 
+              href="tel:+447733219034" 
               className="text-vee-text hover:text-pink-500 transition-colors"
               aria-label="Phone"
             >
@@ -68,14 +68,14 @@ const Navbar = () => {
               <Instagram size={20} />
             </a>
             <a 
-              href="tel:+447497396867" 
+              href="tel:+447733219034" 
               className="text-vee-text hover:text-pink-500 transition-colors flex items-center"
             >
               <Phone size={16} className="mr-1" />
-              <span className="text-sm">+44 7497 396867</span>
+              <span className="text-sm">+44 7733 219034</span>
             </a>
             <a 
-              href="https://wa.me/447497396867" 
+              href="https://wa.me/447733219034" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-vee-pink text-vee-text px-5 py-2 rounded-full text-sm hover:bg-pink-300 transition-colors shadow-sm"

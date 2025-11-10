@@ -100,7 +100,7 @@ const SelfCareSundays = () => {
               <p className="text-center font-medium mb-4">This Sunday, give yourself permission to slow down and prioritise your wellbeing. Make Sunday self-care your new tradition.</p>
               <div className="text-center">
                 <Button asChild className="bg-vee-pink hover:bg-pink-300">
-                  <a href="https://wa.me/447497396867">Book Your Sunday Session</a>
+                  <a href="https://wa.me/447733219034">Book Your Sunday Session</a>
                 </Button>
               </div>
             </div>

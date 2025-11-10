@@ -21,7 +21,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center">
                 <Phone size={16} className="mr-2 text-vee-text/70" />
-                <a href="tel:+447497396867" className="hover:underline">+44 7497 396867</a>
+                <a href="tel:+447733219034" className="hover:underline">+44 7733 219034</a>
               </li>
               <li className="flex items-start">
                 <MapPin size={16} className="mr-2 mt-1 flex-shrink-0 text-vee-text/70" />
@@ -59,7 +59,7 @@ const Footer = () => {
             </ul>
             <div className="mt-6">
               <a 
-                href="https://wa.me/447497396867" 
+                href="https://wa.me/447733219034" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="px-5 py-2 bg-vee-pink text-vee-text text-sm rounded-full hover:bg-pink-300 transition-colors shadow-sm inline-block"

@@ -23,10 +23,12 @@ const Hero = () => {
         
         <div className="mt-8 flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-in-delay-2">
           <Button
-            asChild
+            onClick={() => {
+              (window as any).wahanda?.openOnlineBookingWidget("https://widget.treatwell.co.uk/place/502481/menu/");
+            }}
             className="bg-vee-pink hover:bg-pink-300 text-vee-text rounded-full px-8 py-6"
           >
-            <a href="https://wa.me/447733219034">Book Your Session</a>
+            Book Your Session
           </Button>
           
           <Button

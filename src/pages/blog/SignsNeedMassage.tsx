@@ -73,8 +73,13 @@ const SignsNeedMassage = () => {
             <div className="mt-8 p-6 bg-vee-soft-gray rounded-lg">
               <p className="text-center font-medium mb-4">Don't wait until minor discomfort becomes a major problem. Listen to your body's signals and give it the care it deserves.</p>
               <div className="text-center">
-                <Button asChild className="bg-vee-pink hover:bg-pink-300">
-                  <a href="https://wa.me/447733219034">Book Your Appointment Today</a>
+                <Button 
+                  onClick={() => {
+                    (window as any).wahanda?.openOnlineBookingWidget("https://widget.treatwell.co.uk/place/502481/menu/");
+                  }}
+                  className="bg-vee-pink hover:bg-pink-300"
+                >
+                  Book Your Appointment Today
                 </Button>
               </div>
             </div>

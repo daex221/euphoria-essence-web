@@ -91,8 +91,13 @@ const MassageBackPain = () => {
             <div className="mt-8 p-6 bg-vee-soft-gray rounded-lg">
               <p className="text-center font-medium mb-4">Ready to address your back pain naturally? Book your consultation at Veese Euphoria Essence today.</p>
               <div className="text-center">
-                <Button asChild className="bg-vee-pink hover:bg-pink-300">
-                  <a href="https://wa.me/447733219034">Book Your Session</a>
+                <Button 
+                  onClick={() => {
+                    (window as any).wahanda?.openOnlineBookingWidget("https://widget.treatwell.co.uk/place/502481/menu/");
+                  }}
+                  className="bg-vee-pink hover:bg-pink-300"
+                >
+                  Book Your Session
                 </Button>
               </div>
             </div>

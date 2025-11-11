@@ -58,14 +58,14 @@ const Footer = () => {
               </li>
             </ul>
             <div className="mt-6">
-              <a 
-                href="https://wa.me/447733219034" 
-                target="_blank" 
-                rel="noopener noreferrer"
+              <button 
+                onClick={() => {
+                  (window as any).wahanda?.openOnlineBookingWidget("https://widget.treatwell.co.uk/place/502481/menu/");
+                }}
                 className="px-5 py-2 bg-vee-pink text-vee-text text-sm rounded-full hover:bg-pink-300 transition-colors shadow-sm inline-block"
               >
                 Book Your Session
-              </a>
+              </button>
             </div>
           </div>
         </div>

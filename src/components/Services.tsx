@@ -127,12 +127,14 @@ const Services = () => {
         </div>
         
         <div className="text-center mt-12">
-          <a 
-            href="https://wa.me/447733219034" 
+          <button 
+            onClick={() => {
+              (window as any).wahanda?.openOnlineBookingWidget("https://widget.treatwell.co.uk/place/502481/menu/");
+            }}
             className="inline-flex items-center px-8 py-3 bg-vee-pink text-vee-text rounded-full hover:bg-pink-300 transition-all shadow-sm hover:shadow"
           >
             Book Your Session
-          </a>
+          </button>
           <p className="mt-4 text-sm opacity-75">
             You can also call directly at <a href="tel:+447733219034" className="underline">+44 7733 219034</a>
           </p>

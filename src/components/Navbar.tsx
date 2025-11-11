@@ -74,20 +74,14 @@ const Navbar = () => {
               <Phone size={16} className="mr-1" />
               <span className="text-sm">+44 7733 219034</span>
             </a>
-            <a 
-              href='https://www.treatwell.co.uk/' 
-              id="wahanda-online-booking-widget"
-              onClick={(e) => {
-                e.preventDefault();
+            <button 
+              onClick={() => {
                 (window as any).wahanda?.openOnlineBookingWidget("https://widget.treatwell.co.uk/place/502481/menu/");
-                return false;
               }}
-              target="_blank"
-              rel="noopener noreferrer"
               className="bg-vee-pink text-vee-text px-5 py-2 rounded-full text-sm hover:bg-pink-300 transition-colors shadow-sm"
             >
-              <span>Book now!</span>
-            </a>
+              Book Now
+            </button>
           </div>
         </div>
       </div>

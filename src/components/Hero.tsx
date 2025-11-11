@@ -17,7 +17,7 @@ const Hero = () => {
         </h1>
         
         <p className="max-w-2xl mx-auto text-lg md:text-xl opacity-0 animate-fade-in-delay-1">
-          Massage therapy service in Ilford at 316e Ilford lane, Ilford ig1 2lt.
+          Massage therapy service in Ilford at 316e Ilford Lane, Ilford IG1 2LT.
           Experience deep relaxation and healing through the art of touch.
         </p>
         

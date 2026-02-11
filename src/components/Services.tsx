@@ -1,6 +1,5 @@
 import React from "react";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { HomeIcon, Circle } from "lucide-react";
+import { HomeIcon, Circle, AlertCircle, Moon } from "lucide-react";
 
 const Services = () => {
   return (
@@ -13,12 +12,24 @@ const Services = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-3 font-cormorant">Massage Services & Prices</h2>
           <p className="max-w-2xl mx-auto opacity-75">
-            Choose from a range of therapeutic massage services tailored to your needs, available as incall or outcall sessions.
+            Choose from our therapeutic massage services tailored to your needs, available as incall or outcall sessions.
           </p>
-          <p className="mt-2 text-sm italic">Note: Cash only, please.</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+        {/* Booking Fee Notice */}
+        <div className="max-w-3xl mx-auto mb-10 p-5 bg-vee-peach/30 border border-vee-pink/30 rounded-2xl">
+          <div className="flex items-start gap-3">
+            <AlertCircle className="w-5 h-5 text-pink-600 mt-0.5 flex-shrink-0" />
+            <div className="text-sm">
+              <p className="font-semibold mb-1">Booking Fee: £20</p>
+              <p className="opacity-80">
+                A fee of £20 is required to confirm bookings. This fee is non-refundable once the appointment has been made and will be deducted towards the balance left to pay for your massage therapy. Please note this fee is non-refundable in cases of no-show and cancellation.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
           {/* Incall Services */}
           <div className="service-card backdrop-blur">
             <div className="flex items-center mb-4">
@@ -27,7 +38,7 @@ const Services = () => {
               </div>
               <h3 className="text-xl font-bold font-cormorant">Incall Services</h3>
             </div>
-            <p className="text-sm mb-6 text-vee-text/70">At 316e Ilford Lane, Ilford IG1 2LT</p>
+            <p className="text-sm mb-6 text-vee-text/70">Postcode: IG1 2LT</p>
             
             <div className="space-y-6">
               <div>
@@ -37,37 +48,19 @@ const Services = () => {
                     <Circle className="w-3 h-3 mr-2 text-vee-pink" fill="currentColor" />
                     <span>30 mins</span>
                   </div>
-                  <span className="font-semibold">£50</span>
+                  <span className="font-semibold">£60</span>
                 </div>
                 <div className="flex flex-col sm:flex-row sm:justify-between mt-2 text-sm">
                   <div className="flex items-center">
                     <Circle className="w-3 h-3 mr-2 text-vee-pink" fill="currentColor" />
                     <span>1 hour</span>
                   </div>
-                  <span className="font-semibold">£80</span>
+                  <span className="font-semibold">£90</span>
                 </div>
               </div>
               
               <div>
-                <h4 className="font-medium mb-2">Relaxing Massage</h4>
-                <div className="flex flex-col sm:flex-row sm:justify-between text-sm border-b border-gray-100 pb-2">
-                  <div className="flex items-center">
-                    <Circle className="w-3 h-3 mr-2 text-vee-pink" fill="currentColor" />
-                    <span>30 mins</span>
-                  </div>
-                  <span className="font-semibold">£40</span>
-                </div>
-                <div className="flex flex-col sm:flex-row sm:justify-between mt-2 text-sm">
-                  <div className="flex items-center">
-                    <Circle className="w-3 h-3 mr-2 text-vee-pink" fill="currentColor" />
-                    <span>1 hour</span>
-                  </div>
-                  <span className="font-semibold">£70</span>
-                </div>
-              </div>
-
-              <div>
-                <h4 className="font-medium mb-2">Swedish Massage</h4>
+                <h4 className="font-medium mb-2">Classic Relaxation Massage</h4>
                 <div className="flex flex-col sm:flex-row sm:justify-between text-sm border-b border-gray-100 pb-2">
                   <div className="flex items-center">
                     <Circle className="w-3 h-3 mr-2 text-vee-pink" fill="currentColor" />
@@ -81,78 +74,6 @@ const Services = () => {
                     <span>1 hour</span>
                   </div>
                   <span className="font-semibold">£80</span>
-                </div>
-              </div>
-
-              <div>
-                <h4 className="font-medium mb-2">Foot Massage</h4>
-                <div className="flex flex-col sm:flex-row sm:justify-between text-sm border-b border-gray-100 pb-2">
-                  <div className="flex items-center">
-                    <Circle className="w-3 h-3 mr-2 text-vee-pink" fill="currentColor" />
-                    <span>15 mins</span>
-                  </div>
-                  <span className="font-semibold">£20</span>
-                </div>
-                <div className="flex flex-col sm:flex-row sm:justify-between mt-2 text-sm">
-                  <div className="flex items-center">
-                    <Circle className="w-3 h-3 mr-2 text-vee-pink" fill="currentColor" />
-                    <span>30 mins</span>
-                  </div>
-                  <span className="font-semibold">£40</span>
-                </div>
-              </div>
-
-              <div>
-                <h4 className="font-medium mb-2">Head Massage</h4>
-                <div className="flex flex-col sm:flex-row sm:justify-between text-sm border-b border-gray-100 pb-2">
-                  <div className="flex items-center">
-                    <Circle className="w-3 h-3 mr-2 text-vee-pink" fill="currentColor" />
-                    <span>30 mins</span>
-                  </div>
-                  <span className="font-semibold">£30</span>
-                </div>
-                <div className="flex flex-col sm:flex-row sm:justify-between mt-2 text-sm">
-                  <div className="flex items-center">
-                    <Circle className="w-3 h-3 mr-2 text-vee-pink" fill="currentColor" />
-                    <span>1 hour</span>
-                  </div>
-                  <span className="font-semibold">£60</span>
-                </div>
-              </div>
-
-              <div>
-                <h4 className="font-medium mb-2">Back, Neck & Shoulders Massage</h4>
-                <div className="flex flex-col sm:flex-row sm:justify-between text-sm border-b border-gray-100 pb-2">
-                  <div className="flex items-center">
-                    <Circle className="w-3 h-3 mr-2 text-vee-pink" fill="currentColor" />
-                    <span>30 mins</span>
-                  </div>
-                  <span className="font-semibold">£30</span>
-                </div>
-                <div className="flex flex-col sm:flex-row sm:justify-between mt-2 text-sm">
-                  <div className="flex items-center">
-                    <Circle className="w-3 h-3 mr-2 text-vee-pink" fill="currentColor" />
-                    <span>1 hour</span>
-                  </div>
-                  <span className="font-semibold">£60</span>
-                </div>
-              </div>
-
-              <div>
-                <h4 className="font-medium mb-2">Foot & Leg Massage</h4>
-                <div className="flex flex-col sm:flex-row sm:justify-between text-sm border-b border-gray-100 pb-2">
-                  <div className="flex items-center">
-                    <Circle className="w-3 h-3 mr-2 text-vee-pink" fill="currentColor" />
-                    <span>30 mins</span>
-                  </div>
-                  <span className="font-semibold">£30</span>
-                </div>
-                <div className="flex flex-col sm:flex-row sm:justify-between mt-2 text-sm">
-                  <div className="flex items-center">
-                    <Circle className="w-3 h-3 mr-2 text-vee-pink" fill="currentColor" />
-                    <span>1 hour</span>
-                  </div>
-                  <span className="font-semibold">£60</span>
                 </div>
               </div>
             </div>
@@ -176,129 +97,54 @@ const Services = () => {
                     <Circle className="w-3 h-3 mr-2 text-vee-lavender" fill="currentColor" />
                     <span>30 mins</span>
                   </div>
-                  <span className="font-semibold">£70</span>
+                  <span className="font-semibold">£100</span>
                 </div>
                 <div className="flex flex-col sm:flex-row sm:justify-between mt-2 text-sm">
                   <div className="flex items-center">
                     <Circle className="w-3 h-3 mr-2 text-vee-lavender" fill="currentColor" />
                     <span>1 hour</span>
                   </div>
-                  <span className="font-semibold">£100</span>
+                  <span className="font-semibold">£160</span>
                 </div>
               </div>
               
               <div>
-                <h4 className="font-medium mb-2">Relaxing Massage</h4>
+                <h4 className="font-medium mb-2">Classic Relaxation Massage</h4>
                 <div className="flex flex-col sm:flex-row sm:justify-between text-sm border-b border-gray-100 pb-2">
                   <div className="flex items-center">
                     <Circle className="w-3 h-3 mr-2 text-vee-lavender" fill="currentColor" />
                     <span>30 mins</span>
-                  </div>
-                  <span className="font-semibold">£60</span>
-                </div>
-                <div className="flex flex-col sm:flex-row sm:justify-between mt-2 text-sm">
-                  <div className="flex items-center">
-                    <Circle className="w-3 h-3 mr-2 text-vee-lavender" fill="currentColor" />
-                    <span>1 hour</span>
                   </div>
                   <span className="font-semibold">£90</span>
                 </div>
-              </div>
-
-              <div>
-                <h4 className="font-medium mb-2">Swedish Massage</h4>
-                <div className="flex flex-col sm:flex-row sm:justify-between text-sm border-b border-gray-100 pb-2">
-                  <div className="flex items-center">
-                    <Circle className="w-3 h-3 mr-2 text-vee-lavender" fill="currentColor" />
-                    <span>30 mins</span>
-                  </div>
-                  <span className="font-semibold">£70</span>
-                </div>
                 <div className="flex flex-col sm:flex-row sm:justify-between mt-2 text-sm">
                   <div className="flex items-center">
                     <Circle className="w-3 h-3 mr-2 text-vee-lavender" fill="currentColor" />
                     <span>1 hour</span>
                   </div>
-                  <span className="font-semibold">£100</span>
-                </div>
-              </div>
-
-              <div>
-                <h4 className="font-medium mb-2">Foot Massage</h4>
-                <div className="flex flex-col sm:flex-row sm:justify-between text-sm border-b border-gray-100 pb-2">
-                  <div className="flex items-center">
-                    <Circle className="w-3 h-3 mr-2 text-vee-lavender" fill="currentColor" />
-                    <span>15 mins</span>
-                  </div>
-                  <span className="font-semibold">£40</span>
-                </div>
-                <div className="flex flex-col sm:flex-row sm:justify-between mt-2 text-sm">
-                  <div className="flex items-center">
-                    <Circle className="w-3 h-3 mr-2 text-vee-lavender" fill="currentColor" />
-                    <span>30 mins</span>
-                  </div>
-                  <span className="font-semibold">£60</span>
-                </div>
-              </div>
-
-              <div>
-                <h4 className="font-medium mb-2">Head Massage</h4>
-                <div className="flex flex-col sm:flex-row sm:justify-between text-sm border-b border-gray-100 pb-2">
-                  <div className="flex items-center">
-                    <Circle className="w-3 h-3 mr-2 text-vee-lavender" fill="currentColor" />
-                    <span>30 mins</span>
-                  </div>
-                  <span className="font-semibold">£50</span>
-                </div>
-                <div className="flex flex-col sm:flex-row sm:justify-between mt-2 text-sm">
-                  <div className="flex items-center">
-                    <Circle className="w-3 h-3 mr-2 text-vee-lavender" fill="currentColor" />
-                    <span>1 hour</span>
-                  </div>
-                  <span className="font-semibold">£80</span>
-                </div>
-              </div>
-
-              <div>
-                <h4 className="font-medium mb-2">Back, Neck & Shoulders Massage</h4>
-                <div className="flex flex-col sm:flex-row sm:justify-between text-sm border-b border-gray-100 pb-2">
-                  <div className="flex items-center">
-                    <Circle className="w-3 h-3 mr-2 text-vee-lavender" fill="currentColor" />
-                    <span>30 mins</span>
-                  </div>
-                  <span className="font-semibold">£50</span>
-                </div>
-                <div className="flex flex-col sm:flex-row sm:justify-between mt-2 text-sm">
-                  <div className="flex items-center">
-                    <Circle className="w-3 h-3 mr-2 text-vee-lavender" fill="currentColor" />
-                    <span>1 hour</span>
-                  </div>
-                  <span className="font-semibold">£80</span>
-                </div>
-              </div>
-
-              <div>
-                <h4 className="font-medium mb-2">Foot & Leg Massage</h4>
-                <div className="flex flex-col sm:flex-row sm:justify-between text-sm border-b border-gray-100 pb-2">
-                  <div className="flex items-center">
-                    <Circle className="w-3 h-3 mr-2 text-vee-lavender" fill="currentColor" />
-                    <span>30 mins</span>
-                  </div>
-                  <span className="font-semibold">£50</span>
-                </div>
-                <div className="flex flex-col sm:flex-row sm:justify-between mt-2 text-sm">
-                  <div className="flex items-center">
-                    <Circle className="w-3 h-3 mr-2 text-vee-lavender" fill="currentColor" />
-                    <span>1 hour</span>
-                  </div>
-                  <span className="font-semibold">£80</span>
+                  <span className="font-semibold">£150</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
+        {/* After Dark Notice */}
+        <div className="max-w-3xl mx-auto mb-10 p-5 bg-vee-lavender/20 border border-vee-lavender/30 rounded-2xl">
+          <div className="flex items-start gap-3">
+            <Moon className="w-5 h-5 text-purple-600 mt-0.5 flex-shrink-0" />
+            <div className="text-sm">
+              <p className="font-semibold mb-1">After Dark Charges</p>
+              <p className="opacity-80">
+                Please note that massages done after the hours of 9:30 PM to 12:30 AM onwards attract an extra fee of £20.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <p className="text-center text-sm font-semibold mb-8">CASH ONLY PLEASE, THANK YOU!</p>
         
-        <div className="text-center mt-12">
+        <div className="text-center">
           <button 
             onClick={() => {
               (window as any).wahanda?.openOnlineBookingWidget("https://widget.treatwell.co.uk/place/502481/menu/");

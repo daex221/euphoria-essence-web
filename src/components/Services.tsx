@@ -21,7 +21,7 @@ const Services = () => {
           <div className="flex items-start gap-3">
             <AlertCircle className="w-5 h-5 text-pink-600 mt-0.5 flex-shrink-0" />
             <div className="text-sm">
-              <p className="font-semibold mb-1">Booking Fee: £20</p>
+              
               
 
 

@@ -178,7 +178,7 @@ const Services = () => {
           </div>
         </div>
 
-        <p className="text-center text-sm font-semibold mb-8">CASH ONLY PLEASE, THANK YOU!</p>
+        <p className="text-center text-sm font-semibold mb-8">CARD AND CASH PAYMENTS ACCEPTED, THANK YOU!</p>
         
         <div className="text-center">
           <button

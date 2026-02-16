@@ -1,5 +1,5 @@
 import React from "react";
-import { HomeIcon, Circle, AlertCircle, Moon } from "lucide-react";
+import { HomeIcon, Circle, Moon } from "lucide-react";
 
 const Services = () => {
   return (
@@ -19,7 +19,7 @@ const Services = () => {
         {/* Booking Fee Notice */}
         <div className="max-w-3xl mx-auto mb-10 p-5 bg-vee-peach/30 border border-vee-pink/30 rounded-2xl">
           <div className="flex items-start gap-3">
-            <AlertCircle className="w-5 h-5 text-pink-600 mt-0.5 flex-shrink-0" />
+            
             <div className="text-sm">
               
               

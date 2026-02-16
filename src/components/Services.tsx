@@ -17,17 +17,17 @@ const Services = () => {
         </div>
 
         {/* Booking Fee Notice */}
-        <div className="max-w-3xl mx-auto mb-10 p-5 bg-vee-peach/30 border border-vee-pink/30 rounded-2xl">
-          <div className="flex items-start gap-3">
-            
-            <div className="text-sm">
-              
-              
+        
 
 
-            </div>
-          </div>
-        </div>
+
+
+
+
+
+
+
+
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
           {/* Incall Services */}

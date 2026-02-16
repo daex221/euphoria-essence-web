@@ -76,6 +76,24 @@ const Services = () => {
                   <span className="font-semibold">£80</span>
                 </div>
               </div>
+
+              <div>
+                <h4 className="font-medium mb-2">Swedish Massage</h4>
+                <div className="flex flex-col sm:flex-row sm:justify-between text-sm border-b border-gray-100 pb-2">
+                  <div className="flex items-center">
+                    <Circle className="w-3 h-3 mr-2 text-vee-pink" fill="currentColor" />
+                    <span>30 mins</span>
+                  </div>
+                  <span className="font-semibold">£60</span>
+                </div>
+                <div className="flex flex-col sm:flex-row sm:justify-between mt-2 text-sm">
+                  <div className="flex items-center">
+                    <Circle className="w-3 h-3 mr-2 text-vee-pink" fill="currentColor" />
+                    <span>1 hour</span>
+                  </div>
+                  <span className="font-semibold">£90</span>
+                </div>
+              </div>
             </div>
           </div>
           
@@ -123,6 +141,24 @@ const Services = () => {
                     <span>1 hour</span>
                   </div>
                   <span className="font-semibold">£150</span>
+                </div>
+              </div>
+
+              <div>
+                <h4 className="font-medium mb-2">Swedish Massage</h4>
+                <div className="flex flex-col sm:flex-row sm:justify-between text-sm border-b border-gray-100 pb-2">
+                  <div className="flex items-center">
+                    <Circle className="w-3 h-3 mr-2 text-vee-lavender" fill="currentColor" />
+                    <span>30 mins</span>
+                  </div>
+                  <span className="font-semibold">£100</span>
+                </div>
+                <div className="flex flex-col sm:flex-row sm:justify-between mt-2 text-sm">
+                  <div className="flex items-center">
+                    <Circle className="w-3 h-3 mr-2 text-vee-lavender" fill="currentColor" />
+                    <span>1 hour</span>
+                  </div>
+                  <span className="font-semibold">£160</span>
                 </div>
               </div>
             </div>

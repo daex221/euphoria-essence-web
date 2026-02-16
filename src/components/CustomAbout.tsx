@@ -10,7 +10,7 @@ const CustomAbout = () => {
             <h2 className="text-3xl md:text-4xl font-cormorant font-bold mb-6">About Me</h2>
             
             <p className="text-lg mb-6 opacity-90">
-              Hi, I'm Vanessa Blaze, a licensed massage therapist with over three years of experience in the wellness industry. I specialize in therapeutic, relaxation, and deep tissue massage techniques.
+              Hi, I'm Vanessa, a licensed massage therapist with over three years of experience in the wellness industry. I specialize in therapeutic, relaxation, and deep tissue massage techniques.
             </p>
             
             <p className="text-lg mb-6 opacity-90">

@@ -25,10 +25,9 @@ const CustomAbout = () => {
           <div className="w-full lg:w-1/2">
             <div className="rounded-2xl overflow-hidden shadow-xl">
               <img 
-                src="/lovable-uploads/vanessa-mirror-selfie.png" 
-                alt="Vanessa Blaze - Licensed Massage Therapist" 
-                className="w-full h-auto object-cover object-left"
-                style={{ objectPosition: '20% center' }}
+                src="/lovable-uploads/vanessa-red.jpg" 
+                alt="Vanessa - Licensed Massage Therapist" 
+                className="w-full h-auto object-cover"
               />
             </div>
           </div>

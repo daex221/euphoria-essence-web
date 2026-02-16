@@ -22,9 +22,9 @@ const Services = () => {
             <AlertCircle className="w-5 h-5 text-pink-600 mt-0.5 flex-shrink-0" />
             <div className="text-sm">
               <p className="font-semibold mb-1">Booking Fee: £20</p>
-              <p className="opacity-80">
-                A fee of £20 is required to confirm bookings. This fee is non-refundable once the appointment has been made and will be deducted towards the balance left to pay for your massage therapy. Please note this fee is non-refundable in cases of no-show and cancellation.
-              </p>
+              
+
+
             </div>
           </div>
         </div>
@@ -145,12 +145,12 @@ const Services = () => {
         <p className="text-center text-sm font-semibold mb-8">CASH ONLY PLEASE, THANK YOU!</p>
         
         <div className="text-center">
-          <button 
+          <button
             onClick={() => {
               (window as any).wahanda?.openOnlineBookingWidget("https://widget.treatwell.co.uk/place/502481/menu/");
             }}
-            className="inline-flex items-center px-8 py-3 bg-vee-pink text-vee-text rounded-full hover:bg-pink-300 transition-all shadow-sm hover:shadow"
-          >
+            className="inline-flex items-center px-8 py-3 bg-vee-pink text-vee-text rounded-full hover:bg-pink-300 transition-all shadow-sm hover:shadow">
+
             Book Your Session
           </button>
           <p className="mt-4 text-sm opacity-75">
@@ -158,8 +158,8 @@ const Services = () => {
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default Services;

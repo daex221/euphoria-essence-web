@@ -20,12 +20,24 @@ const CustomAbout = () => {
             <p className="text-lg opacity-90">
               I'm committed to continuous growth through advanced training in a variety of massage modalities, ensuring you receive the highest quality of care. I believe massage isn't just a luxury — it's an essential part of maintaining a healthy, balanced lifestyle.
             </p>
+
+            <div className="mt-8 p-4 bg-vee-lavender/10 border border-vee-lavender/20 rounded-2xl">
+              <p className="text-sm font-semibold mb-3">🎓 Certified & Accredited</p>
+              <div className="rounded-xl overflow-hidden shadow-md">
+                <img 
+                  src="/lovable-uploads/certificate.jpg" 
+                  alt="Deep Tissue Massage Therapy Course - QLS Level 5 Certificate" 
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+              <p className="text-xs mt-2 opacity-70 text-center">Deep Tissue Massage Therapy Course at QLS Level 5 — CPD & IPHM Accredited</p>
+            </div>
           </div>
           
           <div className="w-full lg:w-1/2">
             <div className="rounded-2xl overflow-hidden shadow-xl">
               <img 
-                src="/lovable-uploads/vanessa-red.jpg" 
+                src="/lovable-uploads/vanessa-new.jpg" 
                 alt="Vanessa - Licensed Massage Therapist" 
                 className="w-full h-auto object-cover"
               />

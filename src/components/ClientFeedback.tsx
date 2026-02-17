@@ -14,6 +14,18 @@ const feedbacks = [
     quote: "Wow, wow — what can I say? That massage was truly next level. Deep, intentional, and expertly delivered, it addressed all the right areas with precision and care. From the very first point of booking, the experience was seamless and professional. The massage felt like a portal, transporting me to another universe entirely. Deeply relaxing, grounding, and restorative. An exceptional experience!",
     author: "Loyal Client",
   },
+  {
+    quote: "Vanessa is amazing! She really listens to what you need and adjusts the pressure perfectly. I left feeling like a new person.",
+    author: "Regular Client",
+  },
+  {
+    quote: "Best deep tissue massage I've ever had. She found knots I didn't even know I had. Highly recommend!",
+    author: "First-time Client",
+  },
+  {
+    quote: "I've been going to Vanessa for months now and every session is just as good as the first. She truly cares about her clients' wellbeing.",
+    author: "Returning Client",
+  },
 ];
 
 const ClientFeedback = () => {

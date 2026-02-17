@@ -241,7 +241,7 @@ const Services = () => {
                     <Circle className="w-3 h-3 mr-2 text-vee-lavender" fill="currentColor" />
                     <span>15 mins</span>
                   </div>
-                  <span className="font-semibold">£40</span>
+                  <span className="font-semibold">£30</span>
                 </div>
                 <div className="flex flex-col sm:flex-row sm:justify-between mt-2 text-sm">
                   <div className="flex items-center">
@@ -259,14 +259,14 @@ const Services = () => {
                     <Circle className="w-3 h-3 mr-2 text-vee-lavender" fill="currentColor" />
                     <span>30 mins</span>
                   </div>
-                  <span className="font-semibold">£50</span>
+                  <span className="font-semibold">£45</span>
                 </div>
                 <div className="flex flex-col sm:flex-row sm:justify-between mt-2 text-sm">
                   <div className="flex items-center">
                     <Circle className="w-3 h-3 mr-2 text-vee-lavender" fill="currentColor" />
                     <span>1 hour</span>
                   </div>
-                  <span className="font-semibold">£80</span>
+                  <span className="font-semibold">£90</span>
                 </div>
               </div>
 
@@ -277,14 +277,14 @@ const Services = () => {
                     <Circle className="w-3 h-3 mr-2 text-vee-lavender" fill="currentColor" />
                     <span>30 mins</span>
                   </div>
-                  <span className="font-semibold">£50</span>
+                  <span className="font-semibold">£45</span>
                 </div>
                 <div className="flex flex-col sm:flex-row sm:justify-between mt-2 text-sm">
                   <div className="flex items-center">
                     <Circle className="w-3 h-3 mr-2 text-vee-lavender" fill="currentColor" />
                     <span>1 hour</span>
                   </div>
-                  <span className="font-semibold">£80</span>
+                  <span className="font-semibold">£90</span>
                 </div>
               </div>
 
@@ -295,14 +295,14 @@ const Services = () => {
                     <Circle className="w-3 h-3 mr-2 text-vee-lavender" fill="currentColor" />
                     <span>30 mins</span>
                   </div>
-                  <span className="font-semibold">£50</span>
+                  <span className="font-semibold">£45</span>
                 </div>
                 <div className="flex flex-col sm:flex-row sm:justify-between mt-2 text-sm">
                   <div className="flex items-center">
                     <Circle className="w-3 h-3 mr-2 text-vee-lavender" fill="currentColor" />
                     <span>1 hour</span>
                   </div>
-                  <span className="font-semibold">£80</span>
+                  <span className="font-semibold">£90</span>
                 </div>
               </div>
             </div>

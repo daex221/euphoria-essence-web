@@ -16,6 +16,9 @@ const Hero = () => {
           <span>love, too.</span>
         </h1>
         
+        <p className="text-xl md:text-2xl italic font-cormorant opacity-0 animate-fade-in-delay-1 mb-2">
+          "The Massage Therapist that cares!!"
+        </p>
         <p className="max-w-2xl mx-auto text-lg md:text-xl opacity-0 animate-fade-in-delay-1">
           Massage therapy service in Ilford at 316e Ilford Lane, Ilford IG1 2LT.
           Experience deep relaxation and healing through the art of touch.

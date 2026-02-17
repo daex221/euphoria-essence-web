@@ -31,7 +31,7 @@ const Testimonials = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-3 font-cormorant">Peaceful Moments</h2>
           <p className="max-w-2xl mx-auto opacity-75">
-            Experience the blissful tranquility and rejuvenation that our clients rave about. Open Monday-Friday 12:30-9:30, Saturday-Sunday 2pm-8pm.
+            Experience the blissful tranquility and rejuvenation that our clients rave about. Open Monday–Friday 12:30–9:30 PM, Saturday–Sunday 2 PM–9 PM.
           </p>
         </div>
         

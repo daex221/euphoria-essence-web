@@ -46,15 +46,11 @@ const Footer = () => {
             <ul className="space-y-1 opacity-75">
               <li className="flex justify-between">
                 <span>Monday - Friday</span>
-                <span>10:00 - 20:00</span>
+                <span>12:30 - 21:30</span>
               </li>
               <li className="flex justify-between">
-                <span>Saturday</span>
-                <span>10:00 - 18:00</span>
-              </li>
-              <li className="flex justify-between">
-                <span>Sunday</span>
-                <span>12:00 - 18:00</span>
+                <span>Saturday - Sunday</span>
+                <span>14:00 - 21:00</span>
               </li>
             </ul>
             <div className="mt-6">

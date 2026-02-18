@@ -17,7 +17,11 @@ const Services = () => {
         </div>
 
         {/* Booking Fee Notice */}
-        
+        <div className="bg-vee-pink/60 text-vee-text rounded-xl px-6 py-4 mb-10 text-center">
+          <p className="text-sm font-medium">
+            <strong>Booking Policy:</strong> £20 non-refundable deposit required. 10-minute grace period for appointments. &nbsp;|&nbsp; <strong>Massage Frequency:</strong> Weekly for pain relief, monthly for maintenance.
+          </p>
+        </div>
 
 
 

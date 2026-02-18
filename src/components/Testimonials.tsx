@@ -16,7 +16,7 @@ const Testimonials = () => {
       author: "Michelle K."
     },
     {
-      image: "/lovable-uploads/vanessa-black.jpg",
+      image: "/lovable-uploads/vanessa-purple.jpg",
       quote: "I incorporate a variety of high-quality essential oils into my treatments. Each essential oil is carefully selected for its unique properties, which offer exceptional benefits for your skin.",
       author: "Miss Vanessa Blaze"
     }

@@ -19,7 +19,7 @@ const Services = () => {
         {/* Booking Fee Notice */}
         <div className="bg-vee-pink/60 text-vee-text rounded-xl px-6 py-4 mb-10 text-center">
           <p className="text-sm font-medium">
-            <strong>Booking Policy:</strong> £20 non-refundable deposit required. 10-minute grace period for appointments. &nbsp;|&nbsp; <strong>Massage Frequency:</strong> Weekly for pain relief, monthly for maintenance.
+            <strong>Booking Policy:</strong> A fee of £20 is required to confirm bookings. This fee is non-refundable once the appointment has been made and will be deducted towards the balance left to pay for your massage therapy. Please note this fee is non-refundable in case of no-show and cancellation. &nbsp;|&nbsp; <strong>Massage Frequency:</strong> Weekly for pain relief, monthly for maintenance.
           </p>
         </div>
 

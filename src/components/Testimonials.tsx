@@ -70,16 +70,6 @@ const Testimonials = () => {
                   "{testimonial.quote}"
                 </blockquote>
                 <p className="text-right text-sm font-medium text-vee-text">— {testimonial.author}</p>
-                {index === 2 && (
-                  <div className="mt-4 pt-4 border-t border-gray-100">
-                    <p className="text-xs text-gray-600 mb-1">
-                      <strong>Booking Policy:</strong> £20 non-refundable deposit required. 15-minute grace period for appointments.
-                    </p>
-                    <p className="text-xs text-gray-600">
-                      <strong>Massage Frequency:</strong> Weekly for pain relief, monthly for maintenance.
-                    </p>
-                  </div>
-                )}
               </div>
             </Card>
           ))}
